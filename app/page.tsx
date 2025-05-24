@@ -1,7 +1,8 @@
 import { CasinoList } from "@/components/casino-list"
 import { CasinoModal } from "@/components/casino-modal"
+import { MarketInsights } from "@/components/market-insights"
 import { casinos } from "@/data/casinos"
-import { Shield, Gift, Gamepad2, CheckCircle, Award } from "lucide-react"
+import { Shield, Gift, Gamepad2, CheckCircle, Award, Users, Clock, DollarSign, Star } from "lucide-react"
 
 export default function HomePage() {
   return (
@@ -56,6 +57,56 @@ export default function HomePage() {
           </h2>
           <div className="max-w-6xl mx-auto">
             <CasinoList casinos={casinos} />
+          </div>
+        </div>
+      </section>
+
+      <MarketInsights/>
+
+      {/* Why Choose Our Recommended Casinos */}
+      <section className="py-8 sm:py-12 lg:py-16 animate-fadeInUp" style={{ animationDelay: "0.1s" }}>
+        <div className="container mx-auto px-2 sm:px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center bg-black bg-opacity-50 rounded-lg p-4 sm:p-6 lg:p-8 mb-8">
+              <Star className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 text-[#FFD700] mx-auto mb-3 sm:mb-4" />
+              <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-6 sm:mb-8 text-white">
+                Why Choose Our Recommended Casinos
+              </h2>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+                <div className="bg-white bg-opacity-10 rounded-lg p-4 sm:p-6 text-center">
+                  <Users className="w-8 h-8 sm:w-10 sm:h-10 text-[#FFD700] mx-auto mb-3" />
+                  <h3 className="text-sm sm:text-base font-bold text-white mb-2">Trusted by Thousands</h3>
+                  <p className="text-xs sm:text-sm text-gray-300">
+                    Over 50,000+ Ontario players trust our recommendations for safe and fair gaming.
+                  </p>
+                </div>
+
+                <div className="bg-white bg-opacity-10 rounded-lg p-4 sm:p-6 text-center">
+                  <Clock className="w-8 h-8 sm:w-10 sm:h-10 text-green-400 mx-auto mb-3" />
+                  <h3 className="text-sm sm:text-base font-bold text-white mb-2">Fast Payouts</h3>
+                  <p className="text-xs sm:text-sm text-gray-300">
+                    Get your winnings within 24-48 hours with verified withdrawal methods.
+                  </p>
+                </div>
+
+                <div className="bg-white bg-opacity-10 rounded-lg p-4 sm:p-6 text-center">
+                  <DollarSign className="w-8 h-8 sm:w-10 sm:h-10 text-[#e60023] mx-auto mb-3" />
+                  <h3 className="text-sm sm:text-base font-bold text-white mb-2">Exclusive Bonuses</h3>
+                  <p className="text-xs sm:text-sm text-gray-300">
+                    Access special bonus offers and promotions available only through our site.
+                  </p>
+                </div>
+
+                <div className="bg-white bg-opacity-10 rounded-lg p-4 sm:p-6 text-center">
+                  <Shield className="w-8 h-8 sm:w-10 sm:h-10 text-blue-400 mx-auto mb-3" />
+                  <h3 className="text-sm sm:text-base font-bold text-white mb-2">100% Secure</h3>
+                  <p className="text-xs sm:text-sm text-gray-300">
+                    All casinos use advanced SSL encryption and are regularly audited for fairness.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
