@@ -8,7 +8,7 @@ export default function HomePage() {
     <div
       className="min-h-screen bg-cover bg-center bg-fixed"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('/placeholder.svg?height=1200&width=1920&text=Casino+Background')`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('/bg.jpg')`,
       }}
     >
       <CasinoModal />

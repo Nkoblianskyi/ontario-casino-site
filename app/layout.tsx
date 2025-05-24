@@ -1,17 +1,16 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Asap } from "next/font/google"
 import "./globals.css"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Asap({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "OntarioCasinoSite - Top-Rated Online Casinos in Ontario",
+  title: "Best Online Casinos Ontario 2025 | Licensed Casino Reviews",
   description:
-    "Discover fully licensed casino platforms with massive welcome bonuses and secure gameplay. AGCO-approved operators only.",
-    generator: 'v0.dev'
+    "Discover Ontario's top-rated online casinos with exclusive bonuses. All AGCO-licensed operators reviewed for safety, games, and payouts. 19+ only.",
 }
 
 export default function RootLayout({
