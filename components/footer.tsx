@@ -203,15 +203,6 @@ export function Footer() {
               className="text-blue-400 hover:text-blue-300 underline"
             >
               AGCO Internet Gaming license
-            </a>{" "}
-            and pursuant to an{" "}
-            <a
-              href="https://igamingontario.ca/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-400 hover:text-blue-300 underline"
-            >
-              agreement with iGaming Ontario
             </a>
             .
           </p>
@@ -225,7 +216,7 @@ export function Footer() {
               Gambling can be addictive, please play responsibly.
             </a>
           </p>
-           <p className="text-xs text-gray-400">© 2025 OntarioCasinoSite. Alle rettigheter reservert.</p>
+            <p className="text-xs text-gray-400">© 2025 OntarioCasinoSite. Alle rettigheter reservert.</p>
       </div>
       
     </footer>
