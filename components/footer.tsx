@@ -31,7 +31,7 @@ export function Footer() {
             <p className="text-xs sm:text-sm text-gray-400 mb-3 sm:mb-4">
               Independent comparison guide featuring only AGCO-approved operators. Play safe.
             </p>
-           
+
           </div>
           <div>
             <h4 className="text-sm sm:text-base lg:text-lg font-semibold mb-2 sm:mb-4">Legal</h4>
@@ -62,163 +62,171 @@ export function Footer() {
         <div className="border-t border-gray-800 pt-4 sm:pt-6 mb-4 sm:mb-6">
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-6 items-center justify-items-center">
             <a
-                href="https://igamingontario.ca/en/operator/operators"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:opacity-80 transition-opacity"
-              >
-                <Image
-                  src="/igaming.webp"
-                  alt="iGaming Ontario"
-                  width={120}
-                  height={40}
-                  className="bg-white rounded p-1 md:w-[120px] md:h-[60px]"
-                />
-              </a>
-
-              <a
-                href="https://www.gambleaware.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:opacity-80 transition-opacity"
-              >
-                <Image
-                  src="/gamble-aware-logo.svg"
-                  alt="GambleAware"
-                  width={120}
-                  height={40}
-                  className="rounded p-1 md:w-[120px] md:h-[60px]"
-                />
-              </a>
-
-              <a
-                href="https://www.responsiblegambling.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:opacity-80 transition-opacity"
-              >
-                <Image
-                  src="/check.webp"
-                  alt="RG Check"
-                  width={140}
-                  height={40}
-                  className="bg-white rounded p-1 md:w-[140px] md:h-[80px]"
-                />
-              </a>
-
-              <a
-                href="https://connexontario.ca/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:opacity-80 transition-opacity"
-              >
-                <Image
-                  src="/ConnexOntario_Logo_Transparent.png"
-                  alt="ConnexOntario"
-                  width={120}
-                  height={40}
-                  className="rounded p-1 md:w-[120px] md:h-[60px]"
-                />
-              </a>
-              <a
-                href="https://www.gpwa.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:opacity-80 transition-opacity"
-              >
-                <Image
-                  src="/approved_portal.gif"
-                  alt="GPWA"
-                  width={120}
-                  height={40}
-                  className="rounded p-1 md:w-[120px] md:h-[60px]"
-                />
-              </a>
-
-              <a
-                href="https://ecogra.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:opacity-80 transition-opacity"
-              >
-                <Image
-                  src="/ecogra_newlogo-01.png"
-                  alt="Ecogra"
-                  width={120}
-                  height={40}
-                  className="rounded p-1 md:w-[120px] md:h-[60px]"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-
-        {/* Responsible Gaming Bar */}
-        <div className="bg-black bg-opacity-80 rounded-lg p-3 sm:p-4 mb-4 sm:mb-6 text-center">
-          <div className="flex flex-wrap justify-center items-center gap-2 sm:gap-4 text-xs sm:text-sm">
-            <span className="bg-red-600 text-white px-2 py-1 rounded font-bold">19+</span>
-            <a
-              href="https://connexontario.ca/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:text-[#FFD700] underline transition-colors"
-            >
-              Play Responsibly ConnexOntario.ca
-            </a>
-            <span className="text-white">|</span>
-            <a href="tel:1-866-531-2600" className="text-white hover:text-[#FFD700] transition-colors">
-              1-866-531-2600
-            </a>
-            <a
-              href="https://www.begambleaware.org/"
+              href="https://igamingontario.ca/en/operator/operators"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:opacity-80 transition-opacity"
             >
-              <img
-                src="/gamble-aware-logo.svg"
-                alt="BeGambleAware.org"
-                className="h-4 sm:h-5"
+              <Image
+                src="/igaming.webp"
+                alt="iGaming Ontario"
+                width={120}
+                height={40}
+                className="bg-white rounded p-1 md:w-[120px] md:h-[60px]"
               />
             </a>
-          </div>
-        </div>
 
-        {/* Legal Text */}
-        <div className="text-xs sm:text-sm text-gray-400 text-center space-y-2">
-          <p>
-            This site's operations are regulated by the{" "}
             <a
-              href="https://www.agco.ca/"
+              href="https://www.gambleaware.org/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-400 hover:text-blue-300 underline"
+              className="hover:opacity-80 transition-opacity"
             >
-              Alcohol Gaming Commission of Ontario (AGCO)
-            </a>{" "}, under an{" "}
-            <a
-              href="https://www.agco.ca/lottery-and-gaming/internet-gaming"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-400 hover:text-blue-300 underline"
-            >
-              AGCO Internet Gaming license
+              <Image
+                src="/gamble-aware-logo.svg"
+                alt="GambleAware"
+                width={120}
+                height={40}
+                className="rounded p-1 md:w-[120px] md:h-[60px]"
+              />
             </a>
-            .
-          </p>
-          <p className="font-medium">
+
+            <a
+              href="https://www.responsiblegambling.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/check.webp"
+                alt="RG Check"
+                width={140}
+                height={40}
+                className="bg-white rounded p-1 md:w-[140px] md:h-[80px]"
+              />
+            </a>
+
             <a
               href="https://connexontario.ca/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-400 hover:text-blue-300 underline"
+              className="hover:opacity-80 transition-opacity"
             >
-              Gambling can be addictive, please play responsibly.
+              <Image
+                src="/ConnexOntario_Logo_Transparent.png"
+                alt="ConnexOntario"
+                width={120}
+                height={40}
+                className="rounded p-1 md:w-[120px] md:h-[60px]"
+              />
             </a>
-          </p>
-            <p className="text-xs text-gray-400">© 2025 OntarioCasinoSite. Alle rettigheter reservert.</p>
+            <a
+              href="https://www.gpwa.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/approved_portal.gif"
+                alt="GPWA"
+                width={120}
+                height={40}
+                className="rounded p-1 md:w-[120px] md:h-[60px]"
+              />
+            </a>
+
+            <a
+              href="https://ecogra.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/ecogra_newlogo-01.png"
+                alt="Ecogra"
+                width={120}
+                height={40}
+                className="rounded p-1 md:w-[120px] md:h-[60px]"
+              />
+            </a>
+          </div>
+        </div>
       </div>
+
+      {/* Responsible Gaming Bar */}
+      <div className="bg-black bg-opacity-80 rounded-lg p-3 sm:p-4 mb-4 sm:mb-6 text-center">
+        <div className="flex flex-wrap justify-center items-center gap-2 sm:gap-4 text-xs sm:text-sm">
+          <span className="bg-red-600 text-white px-2 py-1 rounded font-bold">19+</span>
+          <a
+            href="https://connexontario.ca/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-[#FFD700] underline transition-colors"
+          >
+            Play Responsibly ConnexOntario.ca
+          </a>
+          <span className="text-white">|</span>
+          <a href="tel:1-866-531-2600" className="text-white hover:text-[#FFD700] transition-colors">
+            1-866-531-2600
+          </a>
+          <a
+            href="https://www.begambleaware.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:opacity-80 transition-opacity"
+          >
+            <img
+              src="/gamble-aware-logo.svg"
+              alt="BeGambleAware.org"
+              className="h-4 sm:h-5"
+            />
+          </a>
+        </div>
+      </div>
+
+      {/* Legal Text */}
+      <div className="text-xs sm:text-sm text-gray-400 text-center space-y-2">
+        <p>
+          This site's operations are regulated by the{" "}
+          <a
+            href="https://www.agco.ca/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:text-blue-300 underline"
+          >
+            Alcohol Gaming Commission of Ontario (AGCO)
+          </a>{" "}, under an{" "}
+          <a
+            href="https://www.agco.ca/lottery-and-gaming/internet-gaming"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:text-blue-300 underline"
+          >
+            AGCO Internet Gaming license
+          </a>{" "}
+        and pursuant{" "}
+        <a
+          href="https://igamingontario.ca/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:text-blue-300 underline"
+        >
+          iGaming Ontario
+        </a>
+      </p>
+      <p className="font-medium">
+        <a
+          href="https://connexontario.ca/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:text-blue-300 underline"
+        >
+          Gambling can be addictive, please play responsibly.
+        </a>
+      </p>
+      <p className="text-xs text-gray-400">© 2025 OntarioCasinoSite. Alle rettigheter reservert.</p>
+    </div>
       
-    </footer>
+    </footer >
   )
 }
