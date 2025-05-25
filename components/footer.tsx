@@ -195,9 +195,7 @@ export function Footer() {
               className="text-blue-400 hover:text-blue-300 underline"
             >
               Alcohol Gaming Commission of Ontario (AGCO)
-            </a>{" "}
-            and is operated by SkillOnNet Ltd, Office 1/5297 Level G, Quantum House, 75, Abate Rigord Street, Ta' Xbiex,
-            XBX 1120, Malta, under an{" "}
+            </a>{" "}, under an{" "}
             <a
               href="https://www.agco.ca/lottery-and-gaming/internet-gaming"
               target="_blank"
